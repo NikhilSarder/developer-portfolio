@@ -82,6 +82,10 @@ nav li a{
 .banner-profile{
     width: 580px;
 }
+.a-container a{
+    margin-right: 20px;
+   
+}
 
 /* main st about */
 main{
@@ -167,17 +171,52 @@ footer input[type="text"],  footer input[type="email"], footer textarea {
 
 
   @media screen and (max-width: 576px) {
-    nav ul li {
-        display: flex;
-        
+
+    .header{
+        background-image: url(../images/header_bg.png);
+        background-repeat: no-repeat;
+        background-position: cover;
+        background-size: cover;
+
+    
+
+    }
+
+    nav{
         flex-direction: column;
     }
+
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .banner-content h4{
+        text-align: center;
+    }
+    .banner-content h1{
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .banner-content p{
+        text-align: center;
+    }
+
+    .a-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+    }
+
     .banner{
         flex-direction: column;
         margin: 0;
     }
     .banner-profile{
-        width: 450px;
+        width: 100%;
     }
     .about{
         border-radius: 10px;
@@ -211,3 +250,82 @@ footer input[type="text"],  footer input[type="email"], footer textarea {
   }
     
   }
+
+  /* @media screen and (min-width: 576px) and (max-width: 99px){
+    .header{
+        background-image: url(../images/header_bg.png);
+        background-repeat: no-repeat;
+        background-position: cover;
+        background-size: cover;
+
+    
+
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .banner-content h4{
+        text-align: center;
+    }
+    .banner-content h1{
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .banner-content p{
+        text-align: center;
+    }
+
+    .a-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+    }
+
+    .banner{
+        flex-direction: column;
+        margin: 0;
+    }
+    .banner-profile{
+        width: 100%;
+    }
+    .about{
+        border-radius: 10px;
+        padding: 0px;
+        text-align: center;
+        margin-top: 130px;
+    }
+    .about-iteams{
+        display: flex;
+       
+        flex-direction: column;
+    }
+    .skills-container{
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+    }
+    .section-container{
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+        
+    }
+   
+  footer{
+    padding: 50px;
+    flex-direction: column;
+  }
+  .footer-column{
+    width: 100%;
+  }
+  } */
