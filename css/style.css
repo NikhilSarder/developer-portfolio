@@ -165,21 +165,11 @@ footer input[type="text"],  footer input[type="email"], footer textarea {
 
 }
 
- /* responsive media query */
- /* .hide{
-    display: none;
- }
- @media screen and (max-width:576px) {
-    .skills-container{
-        flex-direction: column;
-    }
- } */
+
   @media screen and (max-width: 576px) {
     nav ul li {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: 20px 20px;
+        
         flex-direction: column;
     }
     .banner{
@@ -197,7 +187,7 @@ footer input[type="text"],  footer input[type="email"], footer textarea {
     }
     .about-iteams{
         display: flex;
-        justify-content: space-between;
+       
         flex-direction: column;
     }
     .skills-container{
