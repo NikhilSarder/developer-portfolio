@@ -175,7 +175,7 @@ footer input[type="text"],  footer input[type="email"], footer textarea {
     }
  } */
   @media screen and (max-width: 576px) {
-    nav{
+    nav ul li {
         display: flex;
         align-items: center;
         justify-content: space-between;
