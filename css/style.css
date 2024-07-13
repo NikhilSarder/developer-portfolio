@@ -169,7 +169,7 @@ footer input[type="text"],  footer input[type="email"], footer textarea {
 
 }
 
-
+/* small device */
   @media screen and (max-width: 576px) {
 
     .header{
@@ -250,7 +250,7 @@ footer input[type="text"],  footer input[type="email"], footer textarea {
   }
     
   }
-
+/* medium device */
   @media screen and (min-width:576px) and (max-width:992px) {
     .header{
         background-image: url(../images/header_bg.png);
@@ -263,11 +263,12 @@ footer input[type="text"],  footer input[type="email"], footer textarea {
     }
 
     nav{
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
     }
 
     nav ul {
-        flex-direction: column;
+        flex-direction: row;
         gap: 20px;
     }
 
