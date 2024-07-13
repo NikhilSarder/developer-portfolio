@@ -180,7 +180,7 @@ footer input[type="text"],  footer input[type="email"], footer textarea {
         align-items: center;
         justify-content: space-between;
         margin: 20px 20px;
-        flex-direction: row;
+        flex-direction: column;
     }
     .banner{
         flex-direction: column;
